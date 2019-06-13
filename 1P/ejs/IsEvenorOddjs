@@ -1,0 +1,17 @@
+//verificar si es par
+function IsEven(n){
+    if((n%2)===0)
+	return true;
+    else
+	return false;
+}
+
+print(IsEven(3));
+print(IsEven(2));
+
+function IsOdd(n){
+    return !IsEven(n);
+}
+
+print(IsOdd(3));
+print(IsOdd(2));
